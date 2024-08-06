@@ -23,43 +23,43 @@ export default function TabBar() {
     <div className="fixed bottom-0 w-full mx-auto max-w-screen-md grid grid-cols-5 border-neutral-600 border-t px-5 py-3 *:text-white">
       <Link href="/products" className="flex flex-col items-center gap-px">
         {pathname === "/products" ? (
-          <SolidHomeIcon className="w-7 h-7" />
+          <SolidHomeIcon className="w-7 h-7 text-black dark:text-white" />
         ) : (
-          <OutlineHomeIcon className="w-7 h-7" />
+          <OutlineHomeIcon className="w-7 h-7 text-black dark:text-white" />
         )}
-        <span>홈</span>
+        <span className="text-black dark:text-white">튜데이 </span>
       </Link>
       <Link href="/life" className="flex flex-col items-center gap-px">
         {pathname === "/life" ? (
-          <SolidNewspaperIcon className="w-7 h-7" />
+          <SolidNewspaperIcon className="w-7 h-7 text-black dark:text-white" />
         ) : (
-          <OutlineNewspaperIcon className="w-7 h-7" />
+          <OutlineNewspaperIcon className="w-7 h-7 text-black dark:text-white" />
         )}
-        <span>동네생활</span>
+        <span className="text-black dark:text-white">아티클</span>
       </Link>
       <Link href="/chat" className="flex flex-col items-center gap-px">
         {pathname === "/chat" ? (
-          <SolidChatIcon className="w-7 h-7" />
+          <SolidChatIcon className="w-7 h-7 text-black dark:text-white" />
         ) : (
-          <OutlineChatIcon className="w-7 h-7" />
+          <OutlineChatIcon className="w-7 h-7 text-black dark:text-white" />
         )}
-        <span>채팅</span>
+        <span className="text-black dark:text-white">브레인</span>
       </Link>
       <Link href="/live" className="flex flex-col items-center gap-px">
         {pathname === "/live" ? (
-          <SolidVideoCameraIcon className="w-7 h-7" />
+          <SolidVideoCameraIcon className="w-7 h-7 text-black dark:text-white" />
         ) : (
-          <OutlineVideoCameraIcon className="w-7 h-7" />
+          <OutlineVideoCameraIcon className="w-7 h-7 text-black dark:text-white" />
         )}
-        <span>쇼핑</span>
+        <span className="text-black dark:text-white">커뮤니티</span>
       </Link>
       <Link href="/profile" className="flex flex-col items-center gap-px">
         {pathname === "/profile" ? (
-          <SolidUserIcon className="w-7 h-7" />
+          <SolidUserIcon className="w-7 h-7 text-black dark:text-white" />
         ) : (
-          <OutlineUserIcon className="w-7 h-7" />
+          <OutlineUserIcon className="w-7 h-7 text-black dark:text-white" />
         )}
-        <span>나의 당근</span>
+        <span className="text-black dark:text-white">마이</span>
       </Link>
     </div>
   );
