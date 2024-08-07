@@ -15,7 +15,7 @@ export default function FormInput({
       <input
         name={name}
         style={{ outline: "none", boxShadow: "none" }}
-        className="bg-transparent w-full h-10 focus:outline-none focus:ring-0 placeholder:text-neutral-400"
+        className="bg-transparent w-full h-10 focus:outline-none focus:ring-0 placeholder:text-neutral-400 dark:text-white"
         {...rest}
       />
       {errors &&

@@ -20,7 +20,7 @@ export default function SearchBar() {
           name="search"
           type="search"
           placeholder="검색어를 입력하세요"
-          className="bg-transparent w-full h-10 focus:outline-none focus:ring-0 placeholder:text-neutral-400"
+          className="bg-transparent w-full h-10 focus:outline-none focus:ring-0 placeholder:text-neutral-400 text-black dark:text-white"
         />
       </div>
     </div>

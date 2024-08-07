@@ -10,7 +10,9 @@ export default function Life() {
     <div>
       <div className="w-full h-11 justify-center items-center inline-flex"></div>
       <SearchBar />
-      <div className="w-[390px] h-80 py-3 flex-col justify-start items-start inline-flex">
+      <div className="w-full mx-auto max-w-screen-md h-80 py-3 flex-col justify-start items-start inline-flex">
+        <List />
+        <List />
         <List />
         <List />
       </div>
