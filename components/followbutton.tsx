@@ -13,7 +13,7 @@ export default function FollowButton() {
 
   return (
     <div
-      className={`h-8 px-3 py-1 rounded-[99px] justify-center items-center gap-2 flex cursor-pointer ${
+      className={`h-8 px-3 py-1 rounded-[99px] justify-center items-center gap-2 flex cursor-pointer hover:scale-105 ${
         isFollowing
           ? "bg-white outline outline-[1px] outline-offset-0 outline-[#707085]"
           : "bg-[#ffdd44]"

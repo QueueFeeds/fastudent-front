@@ -4,7 +4,7 @@ import FollowButton from "@/components/followbutton";
 
 export default function List() {
   return (
-    <div className="w-[390px] h-[74px] px-6 py-4 justify-start items-center inline-flex">
+    <div className="w-full mx-auto max-w-screen-md h-[74px] px-6 py-4 justify-center items-center inline-flex">
       <div className="grow shrink basis-0 h-[42px] justify-start items-center gap-2 flex">
         <Image
           src="/Ellipse 91.png"
